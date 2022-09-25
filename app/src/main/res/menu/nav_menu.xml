@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText"
+    tools:showIn="navigation_view">
+    <item android:title="Профиль">
+        <menu>
+            <item
+                android:title="Личный кабинет"
+                android:id="@+id/profile"
+                android:enabled="false"
+                />
+            <item
+                android:id="@+id/addFlight"
+                android:enabled="false"
+                android:title="Добавить рейс"
+                android:visible="false" />
+            <item
+                android:title="Выйти из аккаунта"
+                android:id="@+id/profileExit"
+                android:enabled="false"
+                />
+        </menu>
+    </item>
+    <item android:title="Навигация">
+        <menu>
+            <item
+                android:title="Главная"
+                android:id="@+id/main_page"
+                />
+            <item
+                android:title="@string/aut"
+                android:id="@+id/aut_page"
+                />
+            <item
+                android:title="@string/reg"
+                android:id="@+id/reg_page"
+                />
+            <item
+                android:title="Выход"
+                android:id="@+id/close"
+                />
+        </menu>
+    </item>
+</menu>

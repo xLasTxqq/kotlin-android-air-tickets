@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/aut"
+        android:id="@+id/aut"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+<!--app:showAsAction="ifRoom"-->
+
+    <item
+        android:id="@+id/slash"
+        android:orderInCategory="2"
+        android:title="/"
+        app:showAsAction="always" />
+<!--app:showAsAction="ifRoom"-->
+
+    <item
+        android:title="@string/reg"
+        android:id="@+id/reg"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        />
+<!--app:showAsAction="ifRoom"-->
+</menu>
